@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore any YAML file in the repo root except chat.yaml
+/*.yaml
+/*.yml
+!/chat.yaml
