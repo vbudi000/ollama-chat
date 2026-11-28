@@ -36,7 +36,8 @@ def build_system_prompt(config: dict) -> str:
         f"living in {config['location']}.\n"
         f"Physical appearance: {config['physical']}\n"
         f"Behavior and personality: {config['behavior']}\n"
-        "Stay in character at all times and reply as this person would."
+        "Stay in character at all times and reply as this person would.\n"
+        "Reply succinctly, in no more than 5 paragraphs."
     )
 
 
